@@ -19,7 +19,6 @@ const Placeholder = (props: any) => {
 };
 
 const DropdownIndicator = (props: any) => {
-    console.log('dropdown--->',props)
     return (
         <components.DropdownIndicator {...props}>
             <img src="/chevron-down.svg" />
@@ -48,12 +47,6 @@ const Option = (props: OptionProps<any, false>) => {
 
 const SingleValue = (props: any) => {
     const { data, selectProps } = props;
-	const [isMounted, setIsMounted] = useState(false);
-
-
-    useEffect(()=>{
-        setIsMounted(true)
-    },[])
 
     return (
         <div {...props} className="flex absolute top-0 left-0 bottom-0 right-0 items-center w-full gap-2 p-2 font-inter text-[16px] leading-[24px]">
