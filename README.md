@@ -38,4 +38,3 @@ O usuário também pode pesquisar o herói desejado utilizando a barra de pesqui
 ### Profile 
 A página de perfil mostra o herói selecionado e os dados coletados através da API, como sugerido.
 
-# marvel-app
